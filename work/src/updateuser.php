@@ -14,7 +14,7 @@ $col->updateOne(
     ['$set' => ['age' => $newAge]]
 );
 
-echo "Dado de usuario alterado com sucesso.<br>";
+echo "Informação alterada.<br>";
 
 //mostra os dados alterados
 $record = $col->find(['name' => $name]);
